@@ -4,7 +4,7 @@
   \**********************/
 /*! no static exports found */
 /*! all exports used */
-/*! ModuleConcatenation bailout: Module is not an ECMAScript module */function(e,o){console.log(!1,6,"blue",[1,2,3],[1,2,3],["hello",2])},
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */function(e,o){var t=Object.assign||function(e){for(var o=1;o<arguments.length;o++){var t=arguments[o];for(var n in t)Object.prototype.hasOwnProperty.call(t,n)&&(e[n]=t[n])}return e};const n={name:"foo",color:"red"},r=t({},n,{thickness:5}),c=new class{constructor(e){this.data=e}}(n);console.log("called logUser"),console.log(!1,6,"blue",[1,2,3],[1,2,3],["hello",2],4,void 0,c,r)},
 /*!****************************!*\
   !*** multi ./src/index.js ***!
   \****************************/

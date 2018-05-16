@@ -39,17 +39,17 @@ class Label {
   }
 }
 
-class LabelPaper extends Label {
-  data: ILabelPaper
-  constructor(options: ILabelPaper) {
-    super(options)
-  }
-}
 
 const label: ILabel = {name: 'foo', color: 'red'}
 
 const labelPaper: ILabelPaper = {...label, thickness: 5}
 
+const label2: Label = new Label(label)
+
 logUser()
 
-console.log(isDone, decimal, color, list1, list2, x, notSure, unusable, label, labelPaper)
+console.log(isDone, decimal, color, list1, list2, x, notSure, unusable, label2, labelPaper)
+
+export default (): number => {
+  return 1
+}
